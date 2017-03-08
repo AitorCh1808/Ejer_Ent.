@@ -21,6 +21,13 @@ public class Ejer_ent {
             System.out.print("[ "+i+" ]");
         }System.out.println("");
         
+        for (int i = 0; i < 10; i++) {
+            if (i%2==0) {
+                System.out.print("[ "+i+" ]");
+            }else if(i%2 != 0){
+                System.out.print("[   ]");
+            }       
+        }System.out.println("");
         
     }
     
